@@ -1,7 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Practica2</string>
     <string name="stMiNombre">Joel Sempere Durá</string>
-    <string name="stAgenda">AGENDA</string>
     <string name="stAgendaConstraint">AGENDA-CONSTRAINT</string>
-    <string name="stReceta">RECETA</string>
 </resources>
