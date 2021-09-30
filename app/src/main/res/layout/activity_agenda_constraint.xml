@@ -4,7 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AgendaConstraintActivity">
+    android:background="#FFFFFF"
+    tools:context=".AgendaConstraintActivity"
+    tools:layout_editor_absoluteX="11dp"
+    tools:layout_editor_absoluteY="0dp">
 
     <ImageView
         android:id="@+id/imageView3"
@@ -21,7 +24,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.5" />
+        app:layout_constraintGuide_percent="0.500684" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="445dp" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
@@ -31,16 +43,31 @@
         android:inputType="textPersonName"
         android:text="Name"
         tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="418dp" />
+        tools:layout_editor_absoluteY="385dp" />
 
-    <EditText
-        android:id="@+id/editTextPhone"
+    <ImageView
+        android:id="@+id/imageView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="phone"
-        tools:layout_editor_absoluteX="98dp"
-        tools:layout_editor_absoluteY="471dp" />
+        app:srcCompat="@android:drawable/ic_menu_call"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="445dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_my_calendar"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="385dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/sym_action_email"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="502dp" />
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
@@ -48,7 +75,32 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textEmailAddress"
-        tools:layout_editor_absoluteX="96dp"
-        tools:layout_editor_absoluteY="523dp" />
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="502dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="641dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="242dp"
+        tools:layout_editor_absoluteY="641dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="586dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.8016416"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
