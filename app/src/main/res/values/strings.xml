@@ -4,4 +4,13 @@
     <string name="stAgenda">AGENDA</string>
     <string name="stAgendaConstraint">AGENDA-CONSTRAINT</string>
     <string name="stReceta">RECETA</string>
+    <string name="stNuevoContacto">Nuevo Contacto</string>
+    <string name="stNombre">Nombre</string>
+    <string name="stApellidos">Apellidos</string>
+    <string name="stEmail">E-mail</string>
+    <string name="stTelefono">Teléfono</string>
+    <string name="stNotas">Notas</string>
+    <string name="stAceptar">Aceptar</string>
+    <string name="stReiniciar">Reiniciar</string>
+    <string name="stSalir">Salir</string>
 </resources>
