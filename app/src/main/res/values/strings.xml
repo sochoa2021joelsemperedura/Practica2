@@ -13,4 +13,5 @@
     <string name="stAceptar">Aceptar</string>
     <string name="stReiniciar">Reiniciar</string>
     <string name="stSalir">Salir</string>
+    <string name="stOk">OK</string>
 </resources>

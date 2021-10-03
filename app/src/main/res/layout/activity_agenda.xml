@@ -107,7 +107,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="#FFD683"
+        android:background="#FAE3B4"
         android:ems="10"
         android:gravity="start|top"
         android:inputType="textMultiLine" />
@@ -121,22 +121,37 @@
             android:id="@+id/btnAceptar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
             android:layout_weight="1"
-            android:text="@string/stAceptar" />
+            android:backgroundTint="#8F8F8F"
+            android:text="@string/stAceptar"
+            android:textColor="#000000" />
 
         <Button
             android:id="@+id/btnReiniciar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
             android:layout_weight="1"
-            android:text="@string/stReiniciar" />
+            android:backgroundTint="#8F8F8F"
+            android:text="@string/stReiniciar"
+            android:textColor="#000000" />
 
         <Button
             android:id="@+id/btnSalir"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
             android:layout_weight="1"
-            android:text="@string/stSalir" />
+            android:backgroundTint="#8F8F8F"
+            android:text="@string/stSalir"
+            android:textColor="#000000" />
     </LinearLayout>
 
 </LinearLayout>
