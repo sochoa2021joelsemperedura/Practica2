@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         //Creamos el evento del clic que nos lleva a las nuevas views
         btnAgenda.setOnClickListener(view -> {
             startActivity(new Intent(MainActivity.this,AgendaActivity.class));
+
         });
         btnAgendaConstraint.setOnClickListener(view -> {
             startActivity(new Intent(MainActivity.this,AgendaConstraintActivity.class));

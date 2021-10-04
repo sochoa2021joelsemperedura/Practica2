@@ -13,11 +13,12 @@
         android:id="@+id/imageView3"
         android:layout_width="179dp"
         android:layout_height="218dp"
+        android:visibility="visible"
         app:layout_constraintBottom_toTopOf="@+id/guideline3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/avatars" />
+        tools:srcCompat="@drawable/usericon" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline3"

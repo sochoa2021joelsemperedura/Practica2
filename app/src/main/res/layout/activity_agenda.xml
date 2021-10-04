@@ -14,7 +14,8 @@
         android:text="@string/stNuevoContacto"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="28sp" />
+        android:textSize="28sp"
+        android:visibility="visible" />
 
     <LinearLayout
         android:layout_width="match_parent"
