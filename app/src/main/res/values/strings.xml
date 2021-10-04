@@ -3,7 +3,7 @@
     <string name="stMiNombre">Joel Sempere Durá</string>
     <string name="stAgenda">AGENDA</string>
     <string name="stAgendaConstraint">AGENDA-CONSTRAINT</string>
-    <string name="stReceta">RECETA</string>
+    <string name="stReceta">Receta</string>
     <string name="stNuevoContacto">Nuevo Contacto</string>
     <string name="stNombre">Nombre</string>
     <string name="stApellidos">Apellidos</string>
@@ -14,4 +14,13 @@
     <string name="stReiniciar">Reiniciar</string>
     <string name="stSalir">Salir</string>
     <string name="stOk">OK</string>
+    <string name="stMiNombreReceta">Joel Sempere Durá</string>
+    <string name="stDescripcion">Descripción</string>
+    <string name="stIngredientes">Ingredientes</string>
+    <string name="stTituloReceta">Entrecot con verduras</string>
+    <string name="stLorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem vel quam animi quibusdam dolorem debitis aliquam reiciendis.</string>
+    <string name="stLorem2">    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium optio minus nemo possimus eveniet ducimus, nesciunt voluptates, ratione sapiente facere modi corrupti fugit omnis odit repellendus velit quam? Porro, quidem.
+    Ullam, perferendis quia! Id debitis sapiente nihil similique doloremque doloribus! Molestiae necessitatibus, tempora ducimus error voluptatem officia ipsa in dolore accusantium laborum ea voluptates sit quis! Dolore nesciunt reiciendis corporis.
+    Minus accusantium dolores neque velit? Iusto, earum? Tenetur quisquam id neque delectus ratione molestiae eius, repellendus qui, officiis tempore accusamus sunt provident corporis quia ipsa vero. Nesciunt expedita perferendis fuga?
+    Reprehenderit quia explicabo quas culpa nostrum esse voluptatum dolores odit mollitia non nemo quo quidem fugiat eligendi aperiam molestias, totam quaerat maiores blanditiis unde minus consequuntur ipsam provident? Eveniet, nam.</string>
 </resources>

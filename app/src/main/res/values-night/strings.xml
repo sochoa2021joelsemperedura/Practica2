@@ -9,4 +9,9 @@
     <string name="stReiniciar">Reiniciar</string>
     <string name="stSalir">Salir</string>
     <string name="stOk">OK</string>
+    <string name="stMiNombreReceta">Joel Sempere Durá</string>
+    <string name="stDescripcion">Descripción</string>
+    <string name="stIngredientes">Ingredientes</string>
+    <string name="stTituloReceta">Entrecot con verduras</string>
+    <string name="stLorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem vel quam animi quibusdam dolorem debitis aliquam reiciendis. Qui sunt est, consequuntur iste aperiam aspernatur! Adipisci animi reiciendis fuga tempora nihil. Consectetur similique in aut praesentium placeat animi provident ullam eos cupiditate, harum minus soluta quas sapiente aliquid eaque dolore, exercitationem iure voluptates voluptas sint unde explicabo porro ex eligendi. Natus.</string>
 </resources>
