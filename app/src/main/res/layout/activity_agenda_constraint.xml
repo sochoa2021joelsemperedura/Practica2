@@ -9,17 +9,6 @@
     tools:layout_editor_absoluteX="11dp"
     tools:layout_editor_absoluteY="0dp">
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="179dp"
-        android:layout_height="218dp"
-        android:visibility="visible"
-        app:layout_constraintBottom_toTopOf="@+id/guideline3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@drawable/usericon" />
-
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline3"
         android:layout_width="wrap_content"
@@ -34,13 +23,13 @@
         android:ems="10"
         android:inputType="phone"
         app:layout_constraintBottom_toTopOf="@+id/guideline5"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/etNombrePersona"
+        app:layout_constraintStart_toStartOf="@+id/etNombrePersona"
+        app:layout_constraintTop_toBottomOf="@+id/etNombrePersona"
         app:layout_constraintVertical_bias="0.0" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/etNombrePersona"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -66,10 +55,10 @@
         android:layout_width="32dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="30dp"
-        app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/etNombrePersona"
+        app:layout_constraintEnd_toStartOf="@+id/etNombrePersona"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName"
+        app:layout_constraintTop_toTopOf="@+id/etNombrePersona"
         app:srcCompat="@android:drawable/ic_menu_my_calendar" />
 
     <ImageView
@@ -128,5 +117,15 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.8016416" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/usericon" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
