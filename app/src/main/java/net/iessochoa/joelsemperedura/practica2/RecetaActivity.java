@@ -18,9 +18,11 @@ public class RecetaActivity extends AppCompatActivity {
 
         tvDescripcionContenido.setOnClickListener(view -> {
             Intent intent = new Intent(RecetaActivity.this, TextoActivity.class);
-            intent.putExtra(TextoActivity.EXTRA_CONTENIDO, tvDescripcion.getText().toString());
+            intent.putExtra(TextoActivity.EXTRA_CONTENIDO, tvDescripcionContenido.getText().toString());
             startActivity(intent);
             //Meter tambien el titulo esta solo el contenido
+            //REVISAR PORQUE NO CARGA EL CONTENIDO
+            //metodo para no repetirme
 
         });
 

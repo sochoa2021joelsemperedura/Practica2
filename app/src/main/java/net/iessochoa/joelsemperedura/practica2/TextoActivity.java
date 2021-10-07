@@ -24,8 +24,7 @@ descripcion o receta.
         setContentView(R.layout.activity_texto);
         //Iniciamos views
         iniciaViews();
-        String contenido=getIntent().getStringExtra(EXTRA_CONTENIDO);
-        tvContenido.setText(contenido);
+        tvContenido.setText(getIntent().getStringExtra(EXTRA_CONTENIDO));
         //SEGUIR POR AQUI HAY QUE HACERLOS TODOS
 
         //AHORA AQUI HAY QUE SUSTITUIR EL CONTENIDO POR EL CLICADO EN RECETA
