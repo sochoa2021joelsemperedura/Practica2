@@ -17,19 +17,14 @@ public class RecetaActivity extends AppCompatActivity {
         iniciaViews();
 
         tvDescripcionContenido.setOnClickListener(view -> {
-            /*
-        startActivity(
-                new Intent(RecetaActivity.this,TextoActivity.class).putExtra(
-                        TextoActivity.EXTRA_TITULO,tvDescripcion.getText().toString()
-                ));
-        )
-        REVISAR ESTO QUE FUNCIONA PERO FALLA LA SINTAXIS
-             */
+            Intent intent = new Intent(RecetaActivity.this, TextoActivity.class);
+            intent.putExtra(TextoActivity.EXTRA_TITULO, tvDescripcion.getText().toString());
+            startActivity(intent);
 
         });
 
         tvRecetaContenido.setOnClickListener(view -> {
-
+            //HACER LOS QUE FALTAN
         });
 
         tvIngredientesContenido.setOnClickListener(view -> {
