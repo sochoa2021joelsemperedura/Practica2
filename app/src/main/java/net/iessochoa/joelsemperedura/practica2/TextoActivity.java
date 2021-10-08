@@ -25,6 +25,7 @@ descripcion o receta.
         //Iniciamos views
         iniciaViews();
         tvContenido.setText(getIntent().getStringExtra(EXTRA_CONTENIDO));
+        tvTitulo.setText(getIntent().getStringExtra(EXTRA_TITULO));
         //SEGUIR POR AQUI HAY QUE HACERLOS TODOS
 
         //AHORA AQUI HAY QUE SUSTITUIR EL CONTENIDO POR EL CLICADO EN RECETA

@@ -3,6 +3,7 @@ package net.iessochoa.joelsemperedura.practica2;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.widget.TextView;
 
@@ -16,22 +17,18 @@ public class RecetaActivity extends AppCompatActivity {
         //iniciamos las views
         iniciaViews();
 
+        //Botones que envian a la nueva view el texto y el titulo del textview que es clicado
         tvDescripcionContenido.setOnClickListener(view -> {
-            Intent intent = new Intent(RecetaActivity.this, TextoActivity.class);
-            intent.putExtra(TextoActivity.EXTRA_CONTENIDO, tvDescripcionContenido.getText().toString());
-            startActivity(intent);
-            //Meter tambien el titulo esta solo el contenido
-            //REVISAR PORQUE NO CARGA EL CONTENIDO
-            //metodo para no repetirme
+            iniciaActividad(tvDescripcionContenido,tvDescripcion);
 
         });
 
         tvRecetaContenido.setOnClickListener(view -> {
-            //HACER LOS QUE FALTAN
+            iniciaActividad(tvRecetaContenido,tvReceta); //hacer scroll
         });
 
         tvIngredientesContenido.setOnClickListener(view -> {
-
+        iniciaActividad(tvIngredientesContenido,tvIngredientes);
         });
     }
     private void iniciaViews(){
@@ -44,5 +41,14 @@ public class RecetaActivity extends AppCompatActivity {
         tvReceta=findViewById(R.id.tvReceta);
         tvRecetaContenido=findViewById(R.id.tvRecetaContenido);
 
+    }
+    /*
+    Metodo que crea el intent e inicia la actividad recibiendo como parametros los text view a los que hace referencia
+     */
+    private void iniciaActividad(TextView enviaEsto1, TextView enviaEsto2){
+        Intent intent = new Intent(RecetaActivity.this, TextoActivity.class);
+        intent.putExtra(TextoActivity.EXTRA_CONTENIDO, enviaEsto1.getText().toString());
+        intent.putExtra(TextoActivity.EXTRA_TITULO,enviaEsto2.getText().toString());
+        startActivity(intent);
     }
 }
