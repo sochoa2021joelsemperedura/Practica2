@@ -17,10 +17,11 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
+        android:scrollbars="vertical"
         android:text="@string/stSinopsis"
+        android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="16sp"
-        android:scrollbars="vertical"
         app:layout_constraintEnd_toStartOf="@+id/guideline10"
         app:layout_constraintStart_toStartOf="@+id/guideline11"
         app:layout_constraintTop_toBottomOf="@+id/tvFamily" />
@@ -113,7 +114,7 @@
         app:layout_constraintGuide_percent="0.75" />
 
     <ImageView
-        android:id="@+id/ivBanner"
+        android:id="@+id/tvBanner"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:alpha="0.95"
@@ -125,7 +126,7 @@
         app:srcCompat="@drawable/carnagebanner" />
 
     <ImageView
-        android:id="@+id/ivPortada"
+        android:id="@+id/tvPortada"
         android:layout_width="147dp"
         android:layout_height="187dp"
         android:layout_marginTop="8dp"
@@ -149,7 +150,7 @@
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/imageView7"
-        app:layout_constraintStart_toEndOf="@+id/ivPortada"
+        app:layout_constraintStart_toEndOf="@+id/tvPortada"
         app:layout_constraintTop_toTopOf="@+id/guideline7" />
 
     <androidx.constraintlayout.widget.Guideline
@@ -179,7 +180,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:text="@string/stEstrenoPelicula"
-        app:layout_constraintStart_toEndOf="@+id/ivPortada"
+        app:layout_constraintStart_toEndOf="@+id/tvPortada"
         app:layout_constraintTop_toBottomOf="@+id/tvTituloPelicula" />
 
     <TextView
@@ -221,6 +222,7 @@
         android:layout_marginStart="6dp"
         android:layout_marginTop="8dp"
         android:text="@string/stRating"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="@+id/ivIcon1"
         app:layout_constraintStart_toStartOf="@+id/ivIcon1"
         app:layout_constraintTop_toBottomOf="@+id/ivIcon1" />
@@ -231,6 +233,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="@string/stFamily"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="@+id/ivIcon2"
         app:layout_constraintStart_toStartOf="@+id/ivIcon2"
         app:layout_constraintTop_toBottomOf="@+id/ivIcon2" />
@@ -241,6 +244,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="@string/stPorcentaje"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="@+id/ivIcon3"
         app:layout_constraintStart_toStartOf="@+id/ivIcon3"
         app:layout_constraintTop_toBottomOf="@+id/ivIcon3" />
@@ -251,6 +255,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="@string/stSimilar"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="@+id/ivIcon4"
         app:layout_constraintStart_toStartOf="@+id/ivIcon4"
         app:layout_constraintTop_toBottomOf="@+id/ivIcon4" />
