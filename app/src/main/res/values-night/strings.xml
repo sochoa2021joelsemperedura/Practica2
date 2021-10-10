@@ -18,4 +18,11 @@
     <string name="stContenido">Contenido</string>
     <string name="stTituloPelicula">Venom: Let There Be Carnage</string>
     <string name="stEstrenoPelicula">October 2021 PG 120 minutes</string>
+    <string name="stRent">RENT FROM R29,99</string>
+    <string name="stBuy">BUY FROM R127,99</string>
+    <string name="stRating">996 ratings</string>
+    <string name="stFamily">Family</string>
+    <string name="stPorcentaje">96%</string>
+    <string name="stSimilar">Similar</string>
+    <string name="stSinopsis">Eddie Brock attempts to reignite his career by interviewing serial killer Cletus Kasady, who becomes the host of the symbiote Carnage and escapes prison after a failed execution.</string>
 </resources>
