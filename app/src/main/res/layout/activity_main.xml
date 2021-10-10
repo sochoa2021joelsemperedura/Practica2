@@ -45,4 +45,12 @@
         android:text="@string/stReceta"
         android:textColor="#000000" />
 
+    <Button
+        android:id="@+id/btnPelicula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E3DEDE"
+        android:text="@string/stPelicula"
+        android:textColor="#000000" />
+
 </LinearLayout>

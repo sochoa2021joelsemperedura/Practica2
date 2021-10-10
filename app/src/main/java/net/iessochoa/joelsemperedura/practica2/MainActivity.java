@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     Button btnAgenda;
     Button btnAgendaConstraint;
     Button btnReceta;
+    Button btnPelicula;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +35,10 @@ public class MainActivity extends AppCompatActivity {
             startActivity(new Intent(MainActivity.this,RecetaActivity.class));
         });
 
+        btnPelicula.setOnClickListener(view -> {
+            startActivity(new Intent (MainActivity.this,PeliculaActivity.class));
+        });
+
     }
 
     //Metodo que inicia las views, vincula los objetos botones creados en nuestra clase con el id que identifica al boton de la view
@@ -41,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
         btnAgenda=findViewById(R.id.btnAgenda);
         btnAgendaConstraint=findViewById(R.id.btnAgendaConstraint);
         btnReceta=findViewById(R.id.btnReceta);
+        btnPelicula=findViewById(R.id.btnPelicula);
     }
 
 }
