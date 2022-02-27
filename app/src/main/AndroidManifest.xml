@@ -10,23 +10,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Practica2">
         <activity
-            android:name=".RecetaActivity"
-            android:exported="true" />
-        <activity
-            android:name=".AgendaConstraintActivity"
-            android:exported="true" />
-        <activity
-            android:name=".AgendaActivity"
-            android:exported="true" />
-        <activity
             android:name=".MainActivity"
             android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
+        <activity
+            android:name=".AgendaConstraintActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AgendaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RecetaActivity"
+            android:exported="true" />
     </application>
 
 </manifest>
